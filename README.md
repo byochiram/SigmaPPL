@@ -1,8 +1,8 @@
 # SigmaPPL
 
-SigmaPPL is a web-based academic course registration system developed as a group project for the Software Engineering Project course in the 5th semester at Informatics, Universitas Diponegoro.
+SigmaPPL is a web-based academic course registration system developed as a group project for the Software Engineering Project course at Informatics, Universitas Diponegoro.
 
-The system is inspired by university academic information systems, where students submit their IRS (Isian Rencana Semester) at the beginning of each semester and academic advisors review the submitted course registration.
+This system simulates the IRS (Isian Rencana Semester) process, where students submit course registration plans and academic staff manage the approval workflow.
 
 ## Live Demo
 
@@ -13,34 +13,38 @@ https://sigmappl-production.up.railway.app
 ### Student
 - Submit IRS for the active semester
 - Select courses based on available schedules
-- Prevent schedule conflicts
-- Prevent course selection beyond the allowed SKS limit
+- View selected courses in a timetable
 - Request IRS changes or cancellation
 - View and print approved IRS history
 
 ### Academic Advisor / Lecturer
 - View advised students
 - Filter students by cohort and IRS status
-- Review student IRS submissions
-- Approve submitted IRS
-- Grant permission for IRS changes
-- Grant permission for IRS cancellation
+- Review and approve IRS submissions
+- Grant permission for IRS changes or cancellation
 - View student IRS history
 - Print approved IRS data
 
+### Head of Study Program
+- Manage course data
+- Manage class schedules
+- Review academic schedule data
+
+### Dean
+- Review academic data
+- Approve or monitor academic scheduling process
+
 ## My Contribution
 
-In this group project, I was responsible for the Academic Advisor / Lecturer module.
+I was responsible for the Academic Advisor / Lecturer module.
 
-My main contributions included:
-
-- Developed the frontend and backend for the Academic Advisor role
-- Built the advised-student list page
+My main contributions:
+- Developed the frontend and backend for the academic advisor role
+- Built the advised-student list and student detail pages
 - Implemented student filtering and search
 - Created the IRS approval flow
 - Implemented permission flow for IRS changes and cancellation
-- Built student IRS history pages
-- Added print functionality for approved IRS data
+- Added IRS history and print functionality
 - Supported bug fixing and deployment preparation
 
 ## Tech Stack
@@ -63,8 +67,8 @@ My main contributions included:
 
 ## Project Context
 
-This project was developed as a team assignment for the Software Engineering Project course. The system focuses on simulating the academic course registration workflow between students and academic advisors.
+This project was developed as an academic team project in the 5th semester. The main goal was to build a course registration workflow similar to university academic information systems, especially for IRS submission and academic advisor approval.
 
 ## Disclaimer
 
-This project is an academic simulation project and is not an official Universitas Diponegoro academic system.
+This project is an academic simulation project and is not an official Universitas Diponegoro system.
